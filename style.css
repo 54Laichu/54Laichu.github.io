@@ -1,8 +1,19 @@
 body {
   font-family: 'Nunito', sans-serif;
+  font-size: 16px;
   color: #333;
   background-color: #f8f9fa;
 }
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.25rem;
+  }
+  p {
+      font-size: 0.75rem;
+  }
+}
+
 
 header .navbar {
   background-color: #fff;
@@ -28,7 +39,8 @@ header .navbar-nav .nav-link:hover {
 }
 
 section {
-  padding: 20px 0;
+  padding: 5px 0;
+  margin: 0%;
 }
 
 h1, h2 {
@@ -36,6 +48,10 @@ h1, h2 {
 }
 
 /* Introduction Section */
+#introduction {
+  background-color: #fff;
+  padding-top: 40px;
+}
 #introduction img {
   max-width: 150px;
   margin-bottom: 20px;
