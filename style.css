@@ -99,6 +99,11 @@ footer p {
   animation-fill-mode: forwards;
 }
 
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
 @keyframes fadeInAnimation {
   0% { opacity: 0; }
   100% { opacity: 1; }
